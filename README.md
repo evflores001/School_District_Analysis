@@ -6,6 +6,8 @@ The purpose of this analysis was to find trends in both school and student perfo
 For the purposes of this assignment, the some of the values in the studen_complete.csv file were modified. The reading and math scores for all 9th grade students attending Thomas High School were assigned NaN values. This resulted in changes to the several forenamed datasets. 
 
 ## Results 
+asdfasdfadsf
+
 ### How was each dataframe affected by the changes of data:
 ### How is the district summary affected?
 ### How is the school summary affected?
