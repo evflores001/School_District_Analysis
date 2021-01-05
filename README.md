@@ -8,20 +8,30 @@ The purpose of this analysis was to find trends in both school and student perfo
 For the purposes of this analysis, some of the values in the student_complete.csv file were modified. The reading and math scores for all 9th grade students attending Thomas High School were assigned NaN values using NumPy. This resulted in changes to the several forenamed datasets. 
 
 ## Results 
-
+### Changes to Disctrict and School Summary Dataframes
 The results from altering the grades for the students attending Thomas High are compareable to the dataframes initially obtained. The first change can be observed when comparing the original district summary dataframe with that of the dataframe containing the altered grades
 ![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/district_summ_init.png)
-![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/district_summary_mod_shot.png)
+![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/district_summary_shot_mod.png)
 The dataframe containing the altered grades sees a drop for the average math score as well as all percent passing scores.
 
+The school summary dataframe also saw a change in some of the values regarding Thomas High school. The following dataframes present the original school summary dataframe and altered school summary, respectively.
+![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/school_summ_init.png)
+![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/school_summary_shot_mod.png)
+Similarly to the district summary dataframe, the average math and overall passing grades drop slightly; only the average reading score sees a slight increase.
 
-### How is the school summary affected?
-### How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
-### How does replacing the ninth-grade scores affect the following:
-### Math and reading scores by grade
-### Scores by school spending
-### Scores by school size
-### Scores by school type
+Although replacing the grades for students attending Thomas High School drop some of the average and percentage of students passing, compared to other schools, Thomas High School holds the second place for the top-five schools in the district.
+
+### Other changes
+Removing all math and reading scores for ninth graders attending Thomas High School caused the average math and reading scores by grade to be replaced with *"nan"* as can be seen in the following [math](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/math_scores_by_grade_shot_mod.png) and [reading](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/reading_scores_by_grade_shot_mod.png) score by grade, respectfully.
+
+There were no changes to the scores by [school spending](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/scores_by_school_spending_shot_mod.png), [scores by school size](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/scores_by_school_size_shot_mod.png) or the [scores by school type](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/scores_by_school_type_shot_mod.png) dataframes.
 
 ## Summary
-### Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have beenm replaced with NaNs
+After the reading and math scores for the ninth graders at Thomas High School were replaced with NaNs, the major changes to the school district analysis are as follows:
+
+- Both the distric summary and school summaty dataframes saw a slight drop in average math and percent passing scores
+- Those same dataframes saw an increase in the average reading scores
+- Both the math and reading scores by grades dataframes had an *"nan"* for 9th grade students at Thomas High School
+
+Overall, Thomas High School held its place as the second best performing school based on the percent of overall passing.
+
