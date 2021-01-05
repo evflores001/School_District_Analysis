@@ -9,7 +9,11 @@ For the purposes of this analysis, some of the values in the student_complete.cs
 
 ## Results 
 
-The results from altering the grades for the students attending Thomas High are compareable to the dataframes initially obtained. The first change can be observed when comparing the district summary dataframe.
+The results from altering the grades for the students attending Thomas High are compareable to the dataframes initially obtained. The first change can be observed when comparing the original district summary dataframe with that of the dataframe containing the altered grades
+![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/district_summ_init.png)
+![](https://github.com/evflores001/School_District_Analysis/blob/master/Resources/DataFrameShots/district_summary_mod_shot.png)
+The dataframe containing the altered grades sees a drop for the average math score as well as all percent passing scores.
+
 
 ### How is the school summary affected?
 ### How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
